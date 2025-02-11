@@ -1,0 +1,89 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "0fe19ce7-810a-40c6-903d-4212edc122f9")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 105.41 26.67)
+		(size 67.31 48.26)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "be5ad210-0e50-46e0-a2ef-b2f495348708")
+		(property "Sheetname" "USB"
+			(at 105.41 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb-switch.kicad_sch"
+			(at 105.41 75.5146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "multiboard-controller"
+				(path "/0fe19ce7-810a-40c6-903d-4212edc122f9"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.68 95.25)
+		(size 67.31 46.99)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c98ac17d-3b09-4052-8bd6-0d77fa26b751")
+		(property "Sheetname" "Serial"
+			(at 106.68 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "serial.kicad_sch"
+			(at 106.68 142.8246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "multiboard-controller"
+				(path "/0fe19ce7-810a-40c6-903d-4212edc122f9"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
