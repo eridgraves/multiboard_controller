@@ -594,11 +594,15 @@
     ],
     [
       "be5ad210-0e50-46e0-a2ef-b2f495348708",
-      "USB"
+      "USB Switch"
     ],
     [
       "c98ac17d-3b09-4052-8bd6-0d77fa26b751",
       "Serial"
+    ],
+    [
+      "0a0689b8-4dbb-4f34-97da-2d579719c300",
+      "Input Connectors"
     ]
   ],
   "text_variables": {}

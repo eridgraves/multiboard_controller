@@ -5,6 +5,56 @@
 	(uuid "0fe19ce7-810a-40c6-903d-4212edc122f9")
 	(paper "A4")
 	(lib_symbols)
+	(rectangle
+		(start 90.17 17.78)
+		(end 189.23 152.4)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid aff81de0-a4b9-44d5-902a-5e9833ba24da)
+	)
+	(sheet
+		(at 63.5 57.15)
+		(size 26.67 69.85)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0a0689b8-4dbb-4f34-97da-2d579719c300")
+		(property "Sheetname" "Input Connectors"
+			(at 63.5 56.4384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Input Connectors.kicad_sch"
+			(at 63.5 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "multiboard_controller"
+				(path "/0fe19ce7-810a-40c6-903d-4212edc122f9"
+					(page "4")
+				)
+			)
+		)
+	)
 	(sheet
 		(at 105.41 26.67)
 		(size 67.31 48.26)
@@ -17,7 +67,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "be5ad210-0e50-46e0-a2ef-b2f495348708")
-		(property "Sheetname" "USB"
+		(property "Sheetname" "USB Switch"
 			(at 105.41 25.9584 0)
 			(effects
 				(font
@@ -36,7 +86,7 @@
 			)
 		)
 		(instances
-			(project "multiboard-controller"
+			(project "multiboard_controller"
 				(path "/0fe19ce7-810a-40c6-903d-4212edc122f9"
 					(page "2")
 				)
@@ -44,7 +94,7 @@
 		)
 	)
 	(sheet
-		(at 106.68 95.25)
+		(at 105.41 90.17)
 		(size 67.31 46.99)
 		(fields_autoplaced yes)
 		(stroke
@@ -56,7 +106,7 @@
 		)
 		(uuid "c98ac17d-3b09-4052-8bd6-0d77fa26b751")
 		(property "Sheetname" "Serial"
-			(at 106.68 94.5384 0)
+			(at 105.41 89.4584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65,7 +115,7 @@
 			)
 		)
 		(property "Sheetfile" "serial.kicad_sch"
-			(at 106.68 142.8246 0)
+			(at 105.41 137.7446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -74,7 +124,7 @@
 			)
 		)
 		(instances
-			(project "multiboard-controller"
+			(project "multiboard_controller"
 				(path "/0fe19ce7-810a-40c6-903d-4212edc122f9"
 					(page "3")
 				)
