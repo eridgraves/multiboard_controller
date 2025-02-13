@@ -4,6 +4,10 @@
 	(generator_version "8.0")
 	(uuid "1df19a96-4070-4713-90c8-5084eb750276")
 	(paper "A4")
+	(title_block
+		(title "Input Connectors")
+		(date "2025-02-11")
+	)
 	(lib_symbols
 		(symbol "2025-02-12_02-17-00:GRM188R60J226MEA0D"
 			(pin_names
@@ -3746,29 +3750,7 @@
 		)
 		(uuid "57b7cbd1-fb03-4d75-9908-8225f243e5d7")
 	)
-	(global_label "D-"
-		(shape input)
-		(at 127 73.66 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5c04acb0-a3c0-4a70-af1d-4b1b82fa4588")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.8276 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "D+"
+	(global_label "host_USB_D_P"
 		(shape input)
 		(at 127 78.74 0)
 		(fields_autoplaced yes)
@@ -3778,9 +3760,31 @@
 			)
 			(justify left)
 		)
-		(uuid "e1ac36b7-181f-4f38-9c0d-f374184a97dc")
+		(uuid "31acb51a-c8c5-4524-9ed3-41151e74bc93")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.8276 78.74 0)
+			(at 142.7179 78.6606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "host_USB_D_N"
+		(shape input)
+		(at 127 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "564638da-47d6-40c0-8f70-033e96282232")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.7783 73.5806 0)
 			(effects
 				(font
 					(size 1.27 1.27)

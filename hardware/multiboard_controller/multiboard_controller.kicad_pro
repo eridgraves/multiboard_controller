@@ -603,6 +603,14 @@
     [
       "0a0689b8-4dbb-4f34-97da-2d579719c300",
       "Input Connectors"
+    ],
+    [
+      "67560f05-1fb1-4e04-8b13-d21aefa73d3e",
+      "USB Outputs"
+    ],
+    [
+      "e301144b-e109-475e-9cb5-ffd4ffbe7b79",
+      "Chip Select"
     ]
   ],
   "text_variables": {}

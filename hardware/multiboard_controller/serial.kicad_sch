@@ -4,6 +4,9 @@
 	(generator_version "8.0")
 	(uuid "0a649ee3-df1d-4c50-8e31-bc1c0fcb2a3c")
 	(paper "A4")
+	(title_block
+		(title "Serial Conversion")
+	)
 	(lib_symbols
 		(symbol "2025-02-09_21-04-15:TUSB3410RHBR"
 			(pin_names

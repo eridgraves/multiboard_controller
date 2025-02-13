@@ -4,7 +4,61 @@
 	(generator_version "8.0")
 	(uuid "0fe19ce7-810a-40c6-903d-4212edc122f9")
 	(paper "A4")
+	(title_block
+		(title "Multiboard Controller")
+		(date "2025-02-12")
+	)
 	(lib_symbols)
+	(polyline
+		(pts
+			(xy 219.71 39.37) (xy 219.71 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "622bd052-139a-4bb0-a1a8-7bd2b2ded5c9")
+	)
+	(polyline
+		(pts
+			(xy 44.45 88.9) (xy 63.5 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66bdbe63-3a69-42eb-8b3b-f933715e8357")
+	)
+	(polyline
+		(pts
+			(xy 139.7 44.45) (xy 139.7 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfa1b790-5d4c-4b7e-afbb-e3d68c6dd821")
+	)
+	(polyline
+		(pts
+			(xy 219.71 33.02) (xy 247.65 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0fc2299-3d62-421a-a6e8-f4d43852a160")
+	)
+	(polyline
+		(pts
+			(xy 201.93 39.37) (xy 219.71 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f69d9302-13c7-4dab-834e-a98e6ee83d56")
+	)
 	(rectangle
 		(start 90.17 17.78)
 		(end 189.23 152.4)
@@ -16,6 +70,44 @@
 			(type none)
 		)
 		(uuid aff81de0-a4b9-44d5-902a-5e9833ba24da)
+	)
+	(text_box "Board 0"
+		(exclude_from_sim no)
+		(at 247.65 26.67 0)
+		(size 22.86 12.7)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "913710c3-4bab-4289-bdbc-5a268e1dc98c")
+	)
+	(text_box "Host Machine"
+		(exclude_from_sim no)
+		(at 19.05 82.55 0)
+		(size 25.4 13.97)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "b41ae1b9-6077-49d1-a6f1-6efad0fbbcec")
 	)
 	(sheet
 		(at 63.5 57.15)
@@ -56,8 +148,46 @@
 		)
 	)
 	(sheet
+		(at 189.23 31.75)
+		(size 12.7 39.37)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "67560f05-1fb1-4e04-8b13-d21aefa73d3e")
+		(property "Sheetname" "USB Outputs"
+			(at 189.23 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb-outputs.kicad_sch"
+			(at 189.23 71.7046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "multiboard_controller"
+				(path "/0fe19ce7-810a-40c6-903d-4212edc122f9"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 105.41 26.67)
-		(size 67.31 48.26)
+		(size 67.31 30.48)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -77,7 +207,7 @@
 			)
 		)
 		(property "Sheetfile" "usb-switch.kicad_sch"
-			(at 105.41 75.5146 0)
+			(at 105.41 57.7346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -94,8 +224,8 @@
 		)
 	)
 	(sheet
-		(at 105.41 90.17)
-		(size 67.31 46.99)
+		(at 105.41 107.95)
+		(size 67.31 29.21)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -106,7 +236,7 @@
 		)
 		(uuid "c98ac17d-3b09-4052-8bd6-0d77fa26b751")
 		(property "Sheetname" "Serial"
-			(at 105.41 89.4584 0)
+			(at 105.41 107.2384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -127,6 +257,44 @@
 			(project "multiboard_controller"
 				(path "/0fe19ce7-810a-40c6-903d-4212edc122f9"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 105.41 67.31)
+		(size 67.31 30.48)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e301144b-e109-475e-9cb5-ffd4ffbe7b79")
+		(property "Sheetname" "Chip Select"
+			(at 105.41 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "chip-select.kicad_sch"
+			(at 105.41 98.3746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "multiboard_controller"
+				(path "/0fe19ce7-810a-40c6-903d-4212edc122f9"
+					(page "6")
 				)
 			)
 		)
