@@ -41,7 +41,7 @@
 	)
 	(polyline
 		(pts
-			(xy 44.45 88.9) (xy 63.5 88.9)
+			(xy 44.45 88.9) (xy 71.12 88.9)
 		)
 		(stroke
 			(width 0)
@@ -180,8 +180,8 @@
 		(uuid "b41ae1b9-6077-49d1-a6f1-6efad0fbbcec")
 	)
 	(sheet
-		(at 63.5 57.15)
-		(size 26.67 69.85)
+		(at 71.12 57.15)
+		(size 19.05 69.85)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -192,7 +192,7 @@
 		)
 		(uuid "0a0689b8-4dbb-4f34-97da-2d579719c300")
 		(property "Sheetname" "Input Connectors"
-			(at 63.5 56.4384 0)
+			(at 71.12 56.4384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -201,7 +201,7 @@
 			)
 		)
 		(property "Sheetfile" "Input Connectors.kicad_sch"
-			(at 63.5 127.5846 0)
+			(at 71.12 127.5846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
