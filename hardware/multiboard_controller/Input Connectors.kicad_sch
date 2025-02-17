@@ -3794,6 +3794,28 @@
 			)
 		)
 	)
+	(global_label "V_BUS"
+		(shape input)
+		(at 151.13 58.42 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ef972f8f-d7c8-4bcb-bdc6-1c72b9100667")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.13 49.5686 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "ERJ-2RKF1502X:ERJ-2RKF1502X")
 		(at 236.22 83.82 90)
