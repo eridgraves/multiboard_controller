@@ -672,139 +672,6 @@
 				)
 			)
 		)
-		(symbol "Switch:SW_SPST"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_SPST"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Single Pole Single Throw (SPST) switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch lever"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_SPST_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.254) (xy 1.524 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_SPST_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_names
@@ -1022,11 +889,15 @@
 			)
 		)
 	)
-	(junction
-		(at 96.52 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "feae4ab0-c112-44da-8803-868f11a5d346")
+	(wire
+		(pts
+			(xy 48.26 120.65) (xy 48.26 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08e06763-c581-49c4-a984-bdfe977468e9")
 	)
 	(wire
 		(pts
@@ -1040,13 +911,13 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 135.89) (xy 96.52 128.27)
+			(xy 48.26 156.21) (xy 54.61 156.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3dcd143e-d946-431d-8c7f-458668bd2d1b")
+		(uuid "30830a1d-1904-47ac-884f-60ea4a7f3ca9")
 	)
 	(wire
 		(pts
@@ -1130,13 +1001,23 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 153.67) (xy 96.52 156.21)
+			(xy 48.26 146.05) (xy 54.61 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "713b44c2-5c5b-4845-b510-891c8d7a52e2")
+		(uuid "6fcfcfe5-cf75-4cb7-bd14-2ece2f1d2256")
+	)
+	(wire
+		(pts
+			(xy 48.26 176.53) (xy 48.26 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "734187f1-9140-4a5b-9a59-5a3ee7f9cc82")
 	)
 	(wire
 		(pts
@@ -1170,26 +1051,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 153.67) (xy 96.52 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a50d7844-f271-457b-afdf-3f84f56eca72")
-	)
-	(wire
-		(pts
-			(xy 60.96 153.67) (xy 66.04 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "adabbeb5-eec8-4351-8a29-e2841de130e8")
-	)
-	(wire
-		(pts
 			(xy 59.69 63.5) (xy 66.04 63.5)
 		)
 		(stroke
@@ -1210,16 +1071,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 146.05) (xy 96.52 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba74d3f2-821c-4f1e-970f-826191627d44")
-	)
-	(wire
-		(pts
 			(xy 118.11 68.58) (xy 124.46 68.58)
 		)
 		(stroke
@@ -1228,25 +1079,35 @@
 		)
 		(uuid "cf6743f6-d359-4888-965d-fe0d143f23a3")
 	)
-	(text "Toggle switch based CS Addr"
-		(exclude_from_sim no)
-		(at 73.406 129.794 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
+	(wire
+		(pts
+			(xy 48.26 151.13) (xy 54.61 151.13)
 		)
-		(uuid "38d517a5-724e-4124-8bdf-57496989c901")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f755ed26-5b9e-4f44-ac6c-1a86c620b7d6")
 	)
 	(text "ChipSelect Enable"
 		(exclude_from_sim no)
-		(at 45.72 151.13 0)
+		(at 31.242 144.018 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "71b76ff9-8759-4349-b12c-7376e121cc8a")
+	)
+	(text "Switch based CS Addr"
+		(exclude_from_sim no)
+		(at 67.056 118.364 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "793e89c7-9dcd-4d78-9793-5cdb7c25ff0c")
 	)
 	(text "ChipSelect Address C[2:0]"
 		(exclude_from_sim no)
@@ -1320,7 +1181,7 @@
 	)
 	(global_label "CH_EN"
 		(shape input)
-		(at 60.96 153.67 180)
+		(at 48.26 151.13 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1328,15 +1189,81 @@
 			)
 			(justify right)
 		)
-		(uuid "818f18b7-f46f-4ce4-ae08-86fce2415f14")
+		(uuid "5c69bbe0-bf4e-4c1d-9a57-22bb897f67a6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.4993 153.5906 0)
+			(at 39.7993 151.0506 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 48.26 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02262bef-e8a0-48ee-b793-5b66fce47d26")
+		(property "Reference" "#PWR039"
+			(at 48.26 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 48.26 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "29a8360f-c20c-419a-be9d-ccd928e885b5")
+		)
+		(instances
+			(project "multiboard_controller"
+				(path "/0fe19ce7-810a-40c6-903d-4212edc122f9/e301144b-e109-475e-9cb5-ffd4ffbe7b79"
+					(reference "#PWR039")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -1593,17 +1520,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 96.52 140.97 90)
+		(lib_id "ERJ2RKF1002X:ERJ2RKF1002X")
+		(at 48.26 135.89 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4187151d-810e-4b8d-a10b-da058ab84a57")
-		(property "Reference" "SW4"
-			(at 97.79 139.6999 90)
+		(uuid "447b78ca-6831-442b-a8f6-51ce5c45ef65")
+		(property "Reference" "R31"
+			(at 52.07 134.6199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1611,8 +1538,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SW_SPST"
-			(at 97.79 142.2399 90)
+		(property "Value" "10K"
+			(at 52.07 137.1599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1620,8 +1547,18 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 96.52 140.97 0)
+		(property "Footprint" "ERJ2RKF1002X:RES_ERJ2RKF1002X"
+			(at 48.26 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1629,8 +1566,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 96.52 140.97 0)
+		(property "Description" ""
+			(at 48.26 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1638,25 +1575,56 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 96.52 140.97 0)
+		(property "PARTREV" "3/1/2020"
+			(at 48.26 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "440315d2-ac67-4213-b875-be9c84dea31d")
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 48.26 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.35 mm"
+			(at 48.26 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic"
+			(at 48.26 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "536dc145-dbc8-4bd5-9104-dc8fc02ff6be")
+			(uuid "a19fdfca-5255-43ed-806b-89fa07f3f3f3")
+		)
+		(pin "2"
+			(uuid "0ed00100-fe41-442b-bf3a-b6a4d33ac61d")
 		)
 		(instances
-			(project ""
+			(project "multiboard_controller"
 				(path "/0fe19ce7-810a-40c6-903d-4212edc122f9/e301144b-e109-475e-9cb5-ffd4ffbe7b79"
-					(reference "SW4")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -1834,6 +1802,117 @@
 			(project "multiboard_controller"
 				(path "/0fe19ce7-810a-40c6-903d-4212edc122f9/e301144b-e109-475e-9cb5-ffd4ffbe7b79"
 					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ERJ2RKF1002X:ERJ2RKF1002X")
+		(at 48.26 166.37 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5aa336e1-c5a6-481c-8332-116617bea1bc")
+		(property "Reference" "R32"
+			(at 52.07 165.0999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 52.07 167.6399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ERJ2RKF1002X:RES_ERJ2RKF1002X"
+			(at 48.26 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "3/1/2020"
+			(at 48.26 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 48.26 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.35 mm"
+			(at 48.26 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic"
+			(at 48.26 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac007e68-0a02-4bcd-9125-fa79a785c34f")
+		)
+		(pin "2"
+			(uuid "6d7d1e98-8830-42c4-ad74-0f72de5eb3f7")
+		)
+		(instances
+			(project "multiboard_controller"
+				(path "/0fe19ce7-810a-40c6-903d-4212edc122f9/e301144b-e109-475e-9cb5-ffd4ffbe7b79"
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -2057,16 +2136,16 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 96.52 128.27 0)
+		(at 48.26 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "72c169b9-0341-4a52-bb8d-35f492279a04")
-		(property "Reference" "#PWR031"
-			(at 96.52 132.08 0)
+		(uuid "703cfa9d-a60b-4f1f-96af-7e8b53ea7f08")
+		(property "Reference" "#PWR038"
+			(at 48.26 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2075,7 +2154,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 96.52 123.19 0)
+			(at 48.26 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2083,7 +2162,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 128.27 0)
+			(at 48.26 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2092,7 +2171,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 128.27 0)
+			(at 48.26 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2101,7 +2180,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 96.52 128.27 0)
+			(at 48.26 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2110,12 +2189,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "29f97f5b-6ef4-4720-a3c8-68a6c5b47c63")
+			(uuid "1d205afc-0119-4ac0-93a7-39c39e1c5e8e")
 		)
 		(instances
 			(project "multiboard_controller"
 				(path "/0fe19ce7-810a-40c6-903d-4212edc122f9/e301144b-e109-475e-9cb5-ffd4ffbe7b79"
-					(reference "#PWR031")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -2300,117 +2379,6 @@
 	)
 	(symbol
 		(lib_id "ERJ2RKF1002X:ERJ2RKF1002X")
-		(at 96.52 166.37 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a57b80b2-2d33-4472-9710-b9b7b4104a6d")
-		(property "Reference" "R28"
-			(at 100.33 165.0999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10K"
-			(at 100.33 167.6399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "ERJ2RKF1002X:RES_ERJ2RKF1002X"
-			(at 96.52 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 96.52 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "3/1/2020"
-			(at 96.52 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 96.52 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.35 mm"
-			(at 96.52 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Panasonic"
-			(at 96.52 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3fb314e2-a2b6-4502-bc45-eb95e50ddb5b")
-		)
-		(pin "2"
-			(uuid "bf4c26d8-1b21-44c7-ac96-4de2c6dcd8eb")
-		)
-		(instances
-			(project "multiboard_controller"
-				(path "/0fe19ce7-810a-40c6-903d-4212edc122f9/e301144b-e109-475e-9cb5-ffd4ffbe7b79"
-					(reference "R28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ERJ2RKF1002X:ERJ2RKF1002X")
 		(at 118.11 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2515,115 +2483,6 @@
 			(project "multiboard_controller"
 				(path "/0fe19ce7-810a-40c6-903d-4212edc122f9/e301144b-e109-475e-9cb5-ffd4ffbe7b79"
 					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ERJ2RKF1002X:ERJ2RKF1002X")
-		(at 76.2 153.67 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a6ad207c-e7d2-4229-a9c3-511030acccc8")
-		(property "Reference" "R27"
-			(at 76.2 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 76.2 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 76.2 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "3/1/2020"
-			(at 76.2 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 76.2 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.35 mm"
-			(at 76.2 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Panasonic"
-			(at 76.2 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "79ccfec1-db7d-429e-9ea6-10ff44b9cbc0")
-		)
-		(pin "2"
-			(uuid "b29c2f93-3029-4bff-a228-e93cc9303671")
-		)
-		(instances
-			(project "multiboard_controller"
-				(path "/0fe19ce7-810a-40c6-903d-4212edc122f9/e301144b-e109-475e-9cb5-ffd4ffbe7b79"
-					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -2984,52 +2843,55 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 96.52 176.53 0)
+		(lib_id "2025-02-13_02-16-07:OS102011MS2QN1")
+		(at 54.61 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ca7af523-3401-4206-86c7-5df3b2658d98")
-		(property "Reference" "#PWR030"
-			(at 96.52 182.88 0)
+		(uuid "d43b3f59-3eb8-48d8-af34-05145f6b57aa")
+		(property "Reference" "SW5"
+			(at 73.66 149.8599 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OS102011MS2QN1"
+			(at 73.66 152.3999 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SPDT_OS102011_CNK"
+			(at 54.61 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 96.52 181.61 0)
+		(property "Datasheet" "OS102011MS2QN1"
+			(at 54.61 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 96.52 176.53 0)
+			(at 54.61 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3037,13 +2899,19 @@
 				(hide yes)
 			)
 		)
+		(pin "3"
+			(uuid "ca0e6fd2-ffb2-4e84-a436-fa877d49a043")
+		)
+		(pin "2"
+			(uuid "cd466bf4-7d3f-4d1f-aae9-17d54c80953d")
+		)
 		(pin "1"
-			(uuid "57e29dd5-19a6-42f3-9cc7-a62df595adf4")
+			(uuid "94b7fc2a-ef2a-4ac3-bcbc-1eaedd07388e")
 		)
 		(instances
 			(project "multiboard_controller"
 				(path "/0fe19ce7-810a-40c6-903d-4212edc122f9/e301144b-e109-475e-9cb5-ffd4ffbe7b79"
-					(reference "#PWR030")
+					(reference "SW5")
 					(unit 1)
 				)
 			)
