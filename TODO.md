@@ -1,7 +1,8 @@
 #TODO
 - Serial-to-USB circuit
-- Serial muxing circuit
-    - Can an analog switch be used?
+    - Use USB Hub
+- ~~Serial muxing circuit~~
+    - Analog switch be used
 - Add ESD diodes to outputs?
     - TVS diodes?
 - Pull-ups on lines between switches and ICs/MCU to prevent glitching.
