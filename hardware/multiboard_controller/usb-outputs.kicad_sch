@@ -2824,6 +2824,16 @@
 		)
 		(uuid "fec508c4-db00-4de5-9281-740b4e800506")
 	)
+	(text "Nopo all but 2 for validation\n"
+		(exclude_from_sim no)
+		(at 138.938 24.384 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7fe93ea5-2c99-4ac0-84d5-f3489062f6ab")
+	)
 	(global_label "USB5_D_N"
 		(shape input)
 		(at 133.35 124.46 0)

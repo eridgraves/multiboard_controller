@@ -1523,6 +1523,16 @@
 		)
 		(uuid "ec77e0d8-e1cd-4b36-a8b0-ab28f6e10e62")
 	)
+	(text "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX4999.pdf"
+		(exclude_from_sim no)
+		(at 232.664 20.574 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0b673dae-7139-4134-95e2-8dc613ad2a40")
+	)
 	(text "ChipSelect Enable"
 		(exclude_from_sim no)
 		(at 97.79 60.96 0)
@@ -2255,7 +2265,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "max4999etj+"
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX4999.pdf"
 			(at 119.38 58.42 0)
 			(effects
 				(font

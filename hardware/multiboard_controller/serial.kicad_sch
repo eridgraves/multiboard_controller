@@ -3735,7 +3735,7 @@
 		)
 		(uuid "7513b99b-a878-4f75-a8df-652325c2d9fb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.5493 143.4306 0)
+			(at 70.9772 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5099,7 +5099,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "FT232HPQ-TRAY"
+		(property "Datasheet" "https://ftdichip.com/wp-content/uploads/2024/09/DS_FT233HP.pdf"
 			(at 90.17 25.4 0)
 			(effects
 				(font
@@ -5334,7 +5334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "DG408DJZ"
+		(property "Datasheet" "https://www.renesas.com/en/document/dst/dg408-dg409-datasheet?r=493741"
 			(at 80.01 140.97 0)
 			(effects
 				(font
