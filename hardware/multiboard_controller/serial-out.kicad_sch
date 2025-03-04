@@ -813,7 +813,7 @@
 		)
 		(uuid "e802ca06-8a4f-4129-8055-2508a7d6e23b")
 	)
-	(text "Nopo all but 2 for validation\n"
+	(text "Nop all but 2 for validation\n"
 		(exclude_from_sim no)
 		(at 118.364 26.416 0)
 		(effects
@@ -1358,7 +1358,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "0b397453-1f3e-45a0-8870-a0db87ca70ee")
 		(property "Reference" "J12"
 			(at 160.02 58.166 90)
@@ -1378,7 +1378,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "all-footprints:ASSMANN_A-DS_09_A_KG-T2S"
 			(at 153.67 55.88 0)
 			(effects
 				(font
@@ -1451,7 +1451,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "1cdd54c4-e3dc-45c9-8793-aadbf6a098c9")
 		(property "Reference" "J18"
 			(at 205.74 107.696 90)
@@ -1471,7 +1471,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "all-footprints:ASSMANN_A-DS_09_A_KG-T2S"
 			(at 199.39 105.41 0)
 			(effects
 				(font
@@ -1544,7 +1544,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "1fa33195-01ab-41ee-80f5-0c8323b36473")
 		(property "Reference" "J16"
 			(at 109.22 107.696 90)
@@ -1564,7 +1564,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "all-footprints:ASSMANN_A-DS_09_A_KG-T2S"
 			(at 102.87 105.41 0)
 			(effects
 				(font
@@ -1637,7 +1637,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "21abaa48-2438-4029-b167-a45019f7e73f")
 		(property "Reference" "J15"
 			(at 62.23 107.696 90)
@@ -1657,7 +1657,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "all-footprints:ASSMANN_A-DS_09_A_KG-T2S"
 			(at 55.88 105.41 0)
 			(effects
 				(font
@@ -1730,7 +1730,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "44c36867-f065-4d39-8049-0edb4d633a3b")
 		(property "Reference" "#PWR044"
@@ -1796,7 +1796,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4b0f1aeb-c015-4f92-b06d-2aecb98471c7")
 		(property "Reference" "J11"
 			(at 110.49 58.166 90)
@@ -1816,7 +1816,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "all-footprints:ASSMANN_A-DS_09_A_KG-T2S"
 			(at 104.14 55.88 0)
 			(effects
 				(font
@@ -1889,7 +1889,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "53742b51-d4dd-4034-8186-05c30dc97613")
 		(property "Reference" "#PWR049"
@@ -1955,7 +1955,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6298f5ec-2edb-4c2e-9937-f13b1aa8fe02")
 		(property "Reference" "#PWR042"
@@ -2021,7 +2021,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "71100209-1cfd-4719-8ac1-2b394e13ef8c")
 		(property "Reference" "J13"
 			(at 207.01 58.166 90)
@@ -2041,7 +2041,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "all-footprints:ASSMANN_A-DS_09_A_KG-T2S"
 			(at 200.66 55.88 0)
 			(effects
 				(font
@@ -2114,7 +2114,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8347234c-8f62-4273-a10b-2b46044aa437")
 		(property "Reference" "#PWR046"
@@ -2246,7 +2246,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "d1d20b59-a44e-4fca-84e6-e56cf37f35f5")
 		(property "Reference" "#PWR048"
@@ -2312,7 +2312,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d634d2d4-a394-42f0-8f9c-c48a1015a0de")
 		(property "Reference" "J17"
 			(at 158.75 107.696 90)
@@ -2332,7 +2332,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "all-footprints:ASSMANN_A-DS_09_A_KG-T2S"
 			(at 152.4 105.41 0)
 			(effects
 				(font
@@ -2425,7 +2425,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "all-footprints:ASSMANN_A-DS_09_A_KG-T2S"
 			(at 57.15 55.88 0)
 			(effects
 				(font
@@ -2498,7 +2498,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f27c97f5-dce7-4704-aa49-fcab11061cf1")
 		(property "Reference" "#PWR047"
@@ -2564,7 +2564,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f34d4165-d913-4620-8057-c7997f2852f3")
 		(property "Reference" "#PWR043"

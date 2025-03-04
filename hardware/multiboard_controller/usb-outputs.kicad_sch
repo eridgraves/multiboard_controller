@@ -16,17 +16,17 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J2"
-				(at -11.684 4.826 0)
+			(property "Reference" "J"
+				(at -10.16 29.21 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
+					(justify left)
 				)
 			)
 			(property "Value" "USB_C_Receptacle"
-				(at -11.43 25.4001 90)
+				(at 10.16 29.21 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -35,7 +35,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 5.08 15.24 0)
+				(at 3.81 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -44,7 +44,7 @@
 				)
 			)
 			(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-				(at 4.318 30.988 0)
+				(at 3.81 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -53,7 +53,7 @@
 				)
 			)
 			(property "Description" "USB Full-Featured Type-C Receptacle connector"
-				(at -0.254 30.226 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -81,8 +81,96 @@
 			)
 			(symbol "USB_C_Receptacle_0_0"
 				(rectangle
-					(start -0.254 -5.08)
-					(end 0.254 -4.064)
+					(start -0.254 -35.56)
+					(end 0.254 -34.544)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -32.766)
+					(end 9.144 -33.274)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -30.226)
+					(end 9.144 -30.734)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -25.146)
+					(end 9.144 -25.654)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -22.606)
+					(end 9.144 -23.114)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -17.526)
+					(end 9.144 -18.034)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -14.986)
+					(end 9.144 -15.494)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -9.906)
+					(end 9.144 -10.414)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -7.366)
+					(end 9.144 -7.874)
 					(stroke
 						(width 0)
 						(type default)
@@ -194,7 +282,7 @@
 			(symbol "USB_C_Receptacle_0_1"
 				(rectangle
 					(start -10.16 27.94)
-					(end 10.16 -5.08)
+					(end 10.16 -35.56)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -204,9 +292,9 @@
 					)
 				)
 				(arc
-					(start -7.62 11.43)
-					(mid -5.715 9.5333)
-					(end -3.81 11.43)
+					(start -8.89 -3.81)
+					(mid -6.985 -5.7067)
+					(end -5.08 -3.81)
 					(stroke
 						(width 0.508)
 						(type default)
@@ -216,9 +304,9 @@
 					)
 				)
 				(arc
-					(start -6.35 11.43)
-					(mid -5.715 10.7977)
-					(end -5.08 11.43)
+					(start -7.62 -3.81)
+					(mid -6.985 -4.4423)
+					(end -6.35 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -228,9 +316,9 @@
 					)
 				)
 				(arc
-					(start -6.35 11.43)
-					(mid -5.715 10.7977)
-					(end -5.08 11.43)
+					(start -7.62 -3.81)
+					(mid -6.985 -4.4423)
+					(end -6.35 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -240,8 +328,8 @@
 					)
 				)
 				(rectangle
-					(start -6.35 11.43)
-					(end -5.08 19.05)
+					(start -7.62 -3.81)
+					(end -6.35 3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -251,9 +339,9 @@
 					)
 				)
 				(arc
-					(start -5.08 19.05)
-					(mid -5.715 19.6823)
-					(end -6.35 19.05)
+					(start -6.35 3.81)
+					(mid -6.985 4.4423)
+					(end -7.62 3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -263,9 +351,9 @@
 					)
 				)
 				(arc
-					(start -5.08 19.05)
-					(mid -5.715 19.6823)
-					(end -6.35 19.05)
+					(start -6.35 3.81)
+					(mid -6.985 4.4423)
+					(end -7.62 3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -275,9 +363,9 @@
 					)
 				)
 				(arc
-					(start -3.81 19.05)
-					(mid -5.715 20.9467)
-					(end -7.62 19.05)
+					(start -5.08 3.81)
+					(mid -6.985 5.7067)
+					(end -8.89 3.81)
 					(stroke
 						(width 0.508)
 						(type default)
@@ -288,7 +376,7 @@
 				)
 				(polyline
 					(pts
-						(xy -7.62 11.43) (xy -7.62 19.05)
+						(xy -8.89 -3.81) (xy -8.89 3.81)
 					)
 					(stroke
 						(width 0.508)
@@ -300,7 +388,7 @@
 				)
 				(polyline
 					(pts
-						(xy -3.81 19.05) (xy -3.81 11.43)
+						(xy -5.08 3.81) (xy -5.08 -3.81)
 					)
 					(stroke
 						(width 0.508)
@@ -313,7 +401,7 @@
 			)
 			(symbol "USB_C_Receptacle_1_1"
 				(circle
-					(center -1.27 16.383)
+					(center -2.54 1.143)
 					(radius 0.635)
 					(stroke
 						(width 0.254)
@@ -323,56 +411,8 @@
 						(type outline)
 					)
 				)
-				(polyline
-					(pts
-						(xy 1.27 9.398) (xy 1.27 19.558)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 11.938) (xy -1.27 14.478) (xy -1.27 15.748)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 13.208) (xy 3.81 15.748) (xy 3.81 17.018)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 19.558) (xy 1.27 22.098) (xy 2.54 19.558) (xy 0 19.558)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 				(circle
-					(center 1.27 9.398)
+					(center 0 -5.842)
 					(radius 1.27)
 					(stroke
 						(width 0)
@@ -382,9 +422,57 @@
 						(type outline)
 					)
 				)
+				(polyline
+					(pts
+						(xy 0 -5.842) (xy 0 4.318)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.302) (xy -2.54 -0.762) (xy -2.54 0.508)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.032) (xy 2.54 0.508) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 4.318) (xy 0 6.858) (xy 1.27 4.318) (xy -1.27 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(rectangle
-					(start 3.175 17.018)
-					(end 4.445 18.288)
+					(start 1.905 1.778)
+					(end 3.175 3.048)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -394,7 +482,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -10.16 90)
+					(at 0 -40.64 90)
 					(length 5.08)
 					(name "GND"
 						(effects
@@ -411,8 +499,44 @@
 						)
 					)
 				)
+				(pin bidirectional line
+					(at 15.24 -15.24 180)
+					(length 5.08)
+					(name "RX2-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -17.78 180)
+					(length 5.08)
+					(name "RX2+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
-					(at 0 -10.16 90)
+					(at 0 -40.64 90)
 					(length 5.08) hide
 					(name "GND"
 						(effects
@@ -422,6 +546,42 @@
 						)
 					)
 					(number "A12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -10.16 180)
+					(length 5.08)
+					(name "TX1+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -7.62 180)
+					(length 5.08)
+					(name "TX1-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -502,7 +662,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 0 180)
+					(at 15.24 -30.48 180)
 					(length 5.08)
 					(name "SBU1"
 						(effects
@@ -538,7 +698,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -10.16 90)
+					(at 0 -40.64 90)
 					(length 5.08) hide
 					(name "GND"
 						(effects
@@ -555,8 +715,44 @@
 						)
 					)
 				)
+				(pin bidirectional line
+					(at 15.24 0 180)
+					(length 5.08)
+					(name "RX1-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -2.54 180)
+					(length 5.08)
+					(name "RX1+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
-					(at 0 -10.16 90)
+					(at 0 -40.64 90)
 					(length 5.08) hide
 					(name "GND"
 						(effects
@@ -566,6 +762,42 @@
 						)
 					)
 					(number "B12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -25.4 180)
+					(length 5.08)
+					(name "TX2+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -22.86 180)
+					(length 5.08)
+					(name "TX2-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -646,7 +878,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 -2.54 180)
+					(at 15.24 -33.02 180)
 					(length 5.08)
 					(name "SBU2"
 						(effects
@@ -682,7 +914,7 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 -10.16 90)
+					(at -7.62 -40.64 90)
 					(length 5.08)
 					(name "SHIELD"
 						(effects
@@ -2824,7 +3056,7 @@
 		)
 		(uuid "fec508c4-db00-4de5-9281-740b4e800506")
 	)
-	(text "Nopo all but 2 for validation\n"
+	(text "Nop all but 2 for validation\n\n\nDon't freak out, only one will be active at a time, so routing is actually not a nightmare\n"
 		(exclude_from_sim no)
 		(at 138.938 24.384 0)
 		(effects
@@ -3187,80 +3419,13 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 130.81 43.18 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0284a267-9455-4476-91a2-2f4f8c15a800")
-		(property "Reference" "R7"
-			(at 129.032 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5.1K"
-			(at 133.35 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 131.064 42.164 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 130.81 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 130.81 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bb764513-92ea-4b13-a911-2fd4d24cfcc6")
-		)
-		(pin "1"
-			(uuid "7e495592-ca2e-4e08-8154-aa757e67771a")
-		)
-		(instances
-			(project "multiboard_controller"
-				(path "/0fe19ce7-810a-40c6-903d-4212edc122f9/67560f05-1fb1-4e04-8b13-d21aefa73d3e"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 267.97 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "04ec12cf-4659-452b-9617-f610e359bc7c")
 		(property "Reference" "#PWR021"
@@ -3326,7 +3491,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "0e6b11e5-a7b8-44d9-b8d5-fdb5a64c073a")
 		(property "Reference" "J6"
 			(at 96.266 129.794 0)
@@ -3346,7 +3511,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4135-GF-A_6P_TopMnt_Horizontal"
 			(at 113.03 119.38 0)
 			(effects
 				(font
@@ -3424,6 +3589,30 @@
 		(pin "A8"
 			(uuid "c5b888f8-4684-4fb8-8e9e-128e45250dc3")
 		)
+		(pin "A3"
+			(uuid "34a29590-7e79-42be-9e05-742d8e9c1586")
+		)
+		(pin "A10"
+			(uuid "352bdfda-160f-4d8b-8869-bd1cd974be82")
+		)
+		(pin "A11"
+			(uuid "9c471f10-d891-4118-a935-0f653c700591")
+		)
+		(pin "A2"
+			(uuid "9b9a35b6-96b0-4af2-a0b1-74f0e5b31ae3")
+		)
+		(pin "B10"
+			(uuid "c56ea418-76d3-45b8-9c12-e10435a9be02")
+		)
+		(pin "B11"
+			(uuid "bddd5b75-3394-4993-951d-93205d7f928d")
+		)
+		(pin "B2"
+			(uuid "ecb48ea2-26e0-4257-ab36-3bebc417dc56")
+		)
+		(pin "B3"
+			(uuid "65bc4d71-e684-4b4a-83e6-51afd261a8c6")
+		)
 		(instances
 			(project "multiboard_controller"
 				(path "/0fe19ce7-810a-40c6-903d-4212edc122f9/67560f05-1fb1-4e04-8b13-d21aefa73d3e"
@@ -3440,7 +3629,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0ff2fb49-47c8-45fc-adba-5f1280051ec0")
 		(property "Reference" "#PWR014"
@@ -3524,7 +3713,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 70.104 44.704 90)
 			(effects
 				(font
@@ -3567,6 +3756,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 130.81 116.84 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "146e4d80-c296-4d83-ae8f-822edee0d6a1")
+		(property "Reference" "R16"
+			(at 129.54 119.126 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1K"
+			(at 133.858 119.126 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 131.064 115.824 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 130.81 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7f0a4a5b-8491-4161-ade2-5e38c76cf277")
+		)
+		(pin "1"
+			(uuid "40469aa5-4599-4343-a2f4-49cdfe9a416e")
+		)
+		(instances
+			(project "multiboard_controller"
+				(path "/0fe19ce7-810a-40c6-903d-4212edc122f9/67560f05-1fb1-4e04-8b13-d21aefa73d3e"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:USB_C_Receptacle")
 		(at 46.99 63.5 0)
 		(unit 1)
@@ -3593,7 +3849,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4135-GF-A_6P_TopMnt_Horizontal"
 			(at 52.07 48.26 0)
 			(effects
 				(font
@@ -3671,144 +3927,34 @@
 		(pin "A8"
 			(uuid "ce6d63d9-8ca4-4257-8b6c-480ed233a4c5")
 		)
+		(pin "A3"
+			(uuid "4a271fcd-9a00-4cec-9d4f-644597ec8056")
+		)
+		(pin "A10"
+			(uuid "1b26e82c-7dee-4c2f-9079-fac96bcbded0")
+		)
+		(pin "B11"
+			(uuid "46ee1164-dc93-45e1-adf7-51c8b0e0e78d")
+		)
+		(pin "B2"
+			(uuid "7b4a2ff8-275f-4917-a7cc-ea20e19c4d04")
+		)
+		(pin "A2"
+			(uuid "6ee3808f-a3bd-4bbd-9e39-9697b36d5c90")
+		)
+		(pin "B10"
+			(uuid "8d646a16-7cce-4fee-917c-82bdb394532a")
+		)
+		(pin "B3"
+			(uuid "8a2dfe48-b4cc-48c4-8bc6-8258f9d01287")
+		)
+		(pin "A11"
+			(uuid "1f3c9678-7121-4ffc-bc2f-071f4b2aad12")
+		)
 		(instances
 			(project "multiboard_controller"
 				(path "/0fe19ce7-810a-40c6-903d-4212edc122f9/67560f05-1fb1-4e04-8b13-d21aefa73d3e"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 130.81 45.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2dcb5e2a-8855-43cf-8cec-6b2d8adaeb02")
-		(property "Reference" "R8"
-			(at 129.54 48.006 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5.1K"
-			(at 133.858 48.006 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 131.064 44.704 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 130.81 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 130.81 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ede85d53-3db2-4635-b97b-942c89101719")
-		)
-		(pin "1"
-			(uuid "3fb21a9e-8f21-4477-945e-b1fc4a8a561a")
-		)
-		(instances
-			(project "multiboard_controller"
-				(path "/0fe19ce7-810a-40c6-903d-4212edc122f9/67560f05-1fb1-4e04-8b13-d21aefa73d3e"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 71.12 116.84 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "31678fe9-6012-46ac-895e-dcca17413070")
-		(property "Reference" "R20"
-			(at 69.85 119.126 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5.1K"
-			(at 74.168 119.126 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.374 115.824 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 71.12 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 71.12 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8d81b1e6-a0f9-412d-b2d6-d3db7d8d1bc4")
-		)
-		(pin "1"
-			(uuid "3dcd21f9-21b2-4bd9-be55-4ac84189494c")
-		)
-		(instances
-			(project "multiboard_controller"
-				(path "/0fe19ce7-810a-40c6-903d-4212edc122f9/67560f05-1fb1-4e04-8b13-d21aefa73d3e"
-					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -3821,8 +3967,8 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
-		(uuid "3bb7897d-ace0-4d79-8e94-1856ed4e6bbd")
+		(dnp yes)
+		(uuid "3463d0e0-7dc5-4366-8659-22adb07d83f0")
 		(property "Reference" "R9"
 			(at 189.992 40.64 90)
 			(effects
@@ -3839,7 +3985,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 192.024 42.164 90)
 			(effects
 				(font
@@ -3867,10 +4013,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "4263bf25-e33a-4c67-8a6d-02798f17b4ce")
+			(uuid "8fcd6119-9ea9-4ea4-8a2a-ae43d8a8f4fb")
 		)
 		(pin "1"
-			(uuid "77a60303-009b-4daf-97c1-3e777176b57f")
+			(uuid "4294e156-cc2a-42dc-944b-30618cdc35df")
 		)
 		(instances
 			(project "multiboard_controller"
@@ -3888,7 +4034,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "417ee150-3207-464a-88c0-802db4257d81")
 		(property "Reference" "#PWR020"
@@ -4020,7 +4166,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "496dca34-c277-42a6-ad1e-1143669fc493")
 		(property "Reference" "#PWR017"
@@ -4081,73 +4227,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 71.12 114.3 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "497ed174-57d3-4ad5-8a68-563e5dfdcba7")
-		(property "Reference" "R19"
-			(at 69.342 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5.1K"
-			(at 73.66 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.374 113.284 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 71.12 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 71.12 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3d0152b8-087e-4ab6-af8f-b0e135187926")
-		)
-		(pin "1"
-			(uuid "51397e4a-e7e5-4be0-b0ae-5cec4d630425")
-		)
-		(instances
-			(project "multiboard_controller"
-				(path "/0fe19ce7-810a-40c6-903d-4212edc122f9/67560f05-1fb1-4e04-8b13-d21aefa73d3e"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
 		(at 69.85 43.18 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4171,7 +4250,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 70.104 42.164 90)
 			(effects
 				(font
@@ -4215,14 +4294,81 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
+		(at 71.12 116.84 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "50e353d4-e318-4051-ba79-c195be28edb6")
+		(property "Reference" "R14"
+			(at 69.85 119.126 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1K"
+			(at 74.168 119.126 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 71.374 115.824 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 71.12 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b666175c-7e92-4cd4-9040-e79ac404cec2")
+		)
+		(pin "1"
+			(uuid "bd26d039-1010-404b-9c03-2f9eac5d0a29")
+		)
+		(instances
+			(project "multiboard_controller"
+				(path "/0fe19ce7-810a-40c6-903d-4212edc122f9/67560f05-1fb1-4e04-8b13-d21aefa73d3e"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
 		(at 252.73 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
-		(uuid "5c757d4c-5fe6-4cd0-a6cf-7d841265247f")
-		(property "Reference" "R17"
+		(dnp yes)
+		(uuid "527df628-a032-4781-8ca7-ceef08a65bd9")
+		(property "Reference" "R19"
 			(at 250.952 111.76 90)
 			(effects
 				(font
@@ -4238,7 +4384,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 252.984 113.284 90)
 			(effects
 				(font
@@ -4266,15 +4412,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "1b7611fa-806c-4f4e-8d7c-45f5faf0acff")
+			(uuid "9ce9def8-e927-429d-9cec-45095f25f67f")
 		)
 		(pin "1"
-			(uuid "49b6d63c-d84f-41ce-9740-d96ee4696c59")
+			(uuid "8d2795bf-8d7c-4284-a500-eeb48a2cdaea")
 		)
 		(instances
 			(project "multiboard_controller"
 				(path "/0fe19ce7-810a-40c6-903d-4212edc122f9/67560f05-1fb1-4e04-8b13-d21aefa73d3e"
-					(reference "R17")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -4287,7 +4433,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "5caada4f-b159-44ce-bd02-780e618a6137")
 		(property "Reference" "J4"
 			(at 157.226 58.674 0)
@@ -4307,7 +4453,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4135-GF-A_6P_TopMnt_Horizontal"
 			(at 173.99 48.26 0)
 			(effects
 				(font
@@ -4385,10 +4531,168 @@
 		(pin "A8"
 			(uuid "06f4dc54-5e4a-449e-8514-90708c8e9a9c")
 		)
+		(pin "A10"
+			(uuid "33947513-6a53-4a51-9c0a-1b42df4be28b")
+		)
+		(pin "B10"
+			(uuid "7c6a1b60-b664-4b8e-869e-ff0312558591")
+		)
+		(pin "A11"
+			(uuid "ae754450-4dba-4ebe-a74d-bf2470beec3b")
+		)
+		(pin "A2"
+			(uuid "f418eb9a-3ef3-41cd-878d-66e14f664041")
+		)
+		(pin "A3"
+			(uuid "6b76956a-2f61-4619-b867-07891c5d84fb")
+		)
+		(pin "B11"
+			(uuid "23985871-5fe3-4a15-83fd-14462593546a")
+		)
+		(pin "B2"
+			(uuid "10b0f604-ab3f-485d-aa47-7740a7144301")
+		)
+		(pin "B3"
+			(uuid "b4f4af4a-6094-41c1-a4c2-d357263b7b44")
+		)
 		(instances
 			(project "multiboard_controller"
 				(path "/0fe19ce7-810a-40c6-903d-4212edc122f9/67560f05-1fb1-4e04-8b13-d21aefa73d3e"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 252.73 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "5dd80656-fb16-4475-8df2-12c47b69af78")
+		(property "Reference" "R11"
+			(at 250.952 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1K"
+			(at 255.27 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 252.984 42.164 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 252.73 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 252.73 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "346b58e9-5f0d-4ca8-8819-21642a865cbc")
+		)
+		(pin "1"
+			(uuid "a8e9f2b1-170f-483c-a594-3719c2271aaf")
+		)
+		(instances
+			(project "multiboard_controller"
+				(path "/0fe19ce7-810a-40c6-903d-4212edc122f9/67560f05-1fb1-4e04-8b13-d21aefa73d3e"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 252.73 45.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "681e0f0e-14f4-4bf0-94b4-ea196625b6f9")
+		(property "Reference" "R12"
+			(at 251.46 48.006 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1K"
+			(at 255.778 48.006 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 252.984 44.704 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 252.73 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 252.73 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "77fa019e-9509-4ffe-9b77-aee997bcb74c")
+		)
+		(pin "1"
+			(uuid "53b8ce2f-40f2-4788-89f1-7ac1abeb3cc3")
+		)
+		(instances
+			(project "multiboard_controller"
+				(path "/0fe19ce7-810a-40c6-903d-4212edc122f9/67560f05-1fb1-4e04-8b13-d21aefa73d3e"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -4401,7 +4705,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "685194b9-4f7b-4da4-af20-092120808985")
 		(property "Reference" "J8"
 			(at 218.186 129.794 0)
@@ -4421,7 +4725,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4135-GF-A_6P_TopMnt_Horizontal"
 			(at 234.95 119.38 0)
 			(effects
 				(font
@@ -4499,77 +4803,34 @@
 		(pin "A8"
 			(uuid "6ad72284-d346-4f4a-9571-22b5e5c09038")
 		)
+		(pin "B2"
+			(uuid "5049f384-f5d2-4717-8223-0935c9d7e9fb")
+		)
+		(pin "A10"
+			(uuid "a4548ed6-bc18-45c9-8283-276fd20d2dbc")
+		)
+		(pin "B11"
+			(uuid "d5edfdb8-369e-4f1d-ba24-c811077720f8")
+		)
+		(pin "A2"
+			(uuid "9b9c09fe-3e85-45a2-addb-522efdb3f99c")
+		)
+		(pin "A11"
+			(uuid "7e5b3b82-3bbe-4541-b1b5-c1dc19c28a59")
+		)
+		(pin "A3"
+			(uuid "bce73cdc-c387-4698-9935-f93f006b3a40")
+		)
+		(pin "B10"
+			(uuid "061cf84c-cadd-4e1e-8dca-a777cfa48cd4")
+		)
+		(pin "B3"
+			(uuid "18be2097-352f-4699-87b5-17a390fc149b")
+		)
 		(instances
 			(project "multiboard_controller"
 				(path "/0fe19ce7-810a-40c6-903d-4212edc122f9/67560f05-1fb1-4e04-8b13-d21aefa73d3e"
 					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 191.77 114.3 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6c16fa80-118b-4fb8-9141-90400c3bced3")
-		(property "Reference" "R15"
-			(at 189.992 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5.1K"
-			(at 194.31 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 192.024 113.284 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 191.77 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 191.77 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "33311484-6352-4364-b8c6-c282578fa254")
-		)
-		(pin "1"
-			(uuid "0049bf40-4e42-403f-ba1b-4f4e794f7086")
-		)
-		(instances
-			(project "multiboard_controller"
-				(path "/0fe19ce7-810a-40c6-903d-4212edc122f9/67560f05-1fb1-4e04-8b13-d21aefa73d3e"
-					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -4582,7 +4843,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6c403d78-9b01-440d-b628-a626e2fc4c88")
 		(property "Reference" "#PWR022"
@@ -4648,7 +4909,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "7727d49f-d3b2-4630-861d-17ef37b7e645")
 		(property "Reference" "J9"
 			(at 36.576 129.794 0)
@@ -4668,7 +4929,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4135-GF-A_6P_TopMnt_Horizontal"
 			(at 53.34 119.38 0)
 			(effects
 				(font
@@ -4746,10 +5007,101 @@
 		(pin "A8"
 			(uuid "99cab463-1b66-4796-ba33-41c42692a2dc")
 		)
+		(pin "A3"
+			(uuid "3ffe2416-5ab9-4656-9dee-765da56bc268")
+		)
+		(pin "A10"
+			(uuid "72092bb4-b9ac-4cd5-8317-c213ec6793d1")
+		)
+		(pin "A11"
+			(uuid "0f4bd824-f12d-40b7-87f1-6ad13d3e6d33")
+		)
+		(pin "A2"
+			(uuid "c7dcda0f-bb19-4050-9380-9ac37aa05dc0")
+		)
+		(pin "B11"
+			(uuid "c088f053-ebc8-4d1d-b84d-3d8e816341a8")
+		)
+		(pin "B2"
+			(uuid "ed7bdbae-d17a-48b2-9537-c04a120d3583")
+		)
+		(pin "B10"
+			(uuid "2afcfbfe-0760-473d-9253-e3a98ae71404")
+		)
+		(pin "B3"
+			(uuid "cdf3606e-70b2-4fe9-862f-a07aeceb0ec4")
+		)
 		(instances
 			(project "multiboard_controller"
 				(path "/0fe19ce7-810a-40c6-903d-4212edc122f9/67560f05-1fb1-4e04-8b13-d21aefa73d3e"
 					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 191.77 116.84 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "8655dfb8-9aaf-4ecd-815e-9adaf7eda408")
+		(property "Reference" "R18"
+			(at 190.5 119.126 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1K"
+			(at 194.818 119.126 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 192.024 115.824 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 191.77 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c486c5e1-1f15-43c8-a8f0-c702ecdff3c1")
+		)
+		(pin "1"
+			(uuid "aeda0f64-e6b6-47cd-9afa-a5fc899c4c39")
+		)
+		(instances
+			(project "multiboard_controller"
+				(path "/0fe19ce7-810a-40c6-903d-4212edc122f9/67560f05-1fb1-4e04-8b13-d21aefa73d3e"
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -4762,9 +5114,9 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
-		(uuid "7f8cd1a5-774a-4c0e-8a17-522786e8317e")
-		(property "Reference" "R18"
+		(dnp yes)
+		(uuid "86ae8299-af5c-4006-a1f1-5d8c854f2562")
+		(property "Reference" "R20"
 			(at 251.46 119.126 90)
 			(effects
 				(font
@@ -4780,7 +5132,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 252.984 115.824 90)
 			(effects
 				(font
@@ -4808,82 +5160,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "c52f2d93-ca90-44ee-b5b4-0353ed79d44b")
+			(uuid "0eebf3a7-affe-4979-b789-e49ffdd2c61c")
 		)
 		(pin "1"
-			(uuid "111601bb-0782-4570-8335-a1ee42b41fc9")
+			(uuid "777217c4-f720-400c-8049-083d0329db01")
 		)
 		(instances
 			(project "multiboard_controller"
 				(path "/0fe19ce7-810a-40c6-903d-4212edc122f9/67560f05-1fb1-4e04-8b13-d21aefa73d3e"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 130.81 116.84 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8cde9a72-146a-454c-8868-4894bf56f2a5")
-		(property "Reference" "R14"
-			(at 129.54 119.126 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5.1K"
-			(at 133.858 119.126 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 131.064 115.824 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 130.81 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 130.81 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "61f27d43-c7c3-4456-bb09-bb6b74656160")
-		)
-		(pin "1"
-			(uuid "6bef5017-d344-42c2-bf1c-a7e0b8e32b86")
-		)
-		(instances
-			(project "multiboard_controller"
-				(path "/0fe19ce7-810a-40c6-903d-4212edc122f9/67560f05-1fb1-4e04-8b13-d21aefa73d3e"
-					(reference "R14")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -4896,7 +5181,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8f322965-42c2-4cb6-b73c-3b1f03e29a29")
 		(property "Reference" "#PWR013"
@@ -4962,7 +5247,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "91fb0082-a087-44c9-9900-9cb450a8df17")
 		(property "Reference" "#PWR019"
@@ -5022,13 +5307,80 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 71.12 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "99d1d442-70f1-46b6-ac1b-07200b028374")
+		(property "Reference" "R13"
+			(at 69.342 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1K"
+			(at 73.66 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 71.374 113.284 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 71.12 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5fd1fcc1-5b65-490f-b4ac-328f7743d226")
+		)
+		(pin "1"
+			(uuid "c62093b5-b551-464e-8918-5e72d6c68f56")
+		)
+		(instances
+			(project "multiboard_controller"
+				(path "/0fe19ce7-810a-40c6-903d-4212edc122f9/67560f05-1fb1-4e04-8b13-d21aefa73d3e"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 146.05 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9beb6323-4e6d-4c07-9814-def47959217d")
 		(property "Reference" "#PWR011"
@@ -5088,80 +5440,13 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 130.81 114.3 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a17b1c79-fd37-4c7b-8a32-e73a506c9177")
-		(property "Reference" "R13"
-			(at 129.032 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5.1K"
-			(at 133.35 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 131.064 113.284 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 130.81 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 130.81 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "be79286d-cad2-46a3-a4c1-4c92e365b501")
-		)
-		(pin "1"
-			(uuid "82e045cd-a292-4ed1-a999-f1f369154432")
-		)
-		(instances
-			(project "multiboard_controller"
-				(path "/0fe19ce7-810a-40c6-903d-4212edc122f9/67560f05-1fb1-4e04-8b13-d21aefa73d3e"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 104.14 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b25d00be-dc38-4614-bfb1-ab8353a7f8c9")
 		(property "Reference" "#PWR016"
@@ -5221,13 +5506,80 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 191.77 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "b506bb14-a14e-4707-be9d-754d8c162566")
+		(property "Reference" "R17"
+			(at 189.992 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1K"
+			(at 194.31 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 192.024 113.284 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 191.77 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "82a03145-9707-488c-973b-287dd146b428")
+		)
+		(pin "1"
+			(uuid "c2181419-aca6-4d45-bd1c-d032f296b11d")
+		)
+		(instances
+			(project "multiboard_controller"
+				(path "/0fe19ce7-810a-40c6-903d-4212edc122f9/67560f05-1fb1-4e04-8b13-d21aefa73d3e"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:USB_C_Receptacle")
 		(at 229.87 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b8f7e400-60de-45ef-bd8f-a6558d8330e5")
 		(property "Reference" "J5"
 			(at 218.186 58.674 0)
@@ -5247,7 +5599,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4135-GF-A_6P_TopMnt_Horizontal"
 			(at 234.95 48.26 0)
 			(effects
 				(font
@@ -5325,10 +5677,101 @@
 		(pin "A8"
 			(uuid "4851fc83-1b32-49ce-ab1c-4161d40cd216")
 		)
+		(pin "A2"
+			(uuid "d58f383a-6fd9-4e1d-b1db-0f2e937e725b")
+		)
+		(pin "A10"
+			(uuid "5932e0f2-3df6-4319-908f-61f17af90ffd")
+		)
+		(pin "B11"
+			(uuid "a07eeefc-6d25-4eda-9f8c-92a3a2419a2f")
+		)
+		(pin "B10"
+			(uuid "5fa7bd83-faf1-4fda-b5b5-7e40d64675d2")
+		)
+		(pin "A11"
+			(uuid "812be1ab-bd27-4a30-8b13-332c3e863f7b")
+		)
+		(pin "B3"
+			(uuid "754853aa-4966-4508-a9d8-f54f0905c8cb")
+		)
+		(pin "B2"
+			(uuid "b5681cb6-2067-49ec-b2b2-c4b75e4bd50c")
+		)
+		(pin "A3"
+			(uuid "4fed2c0c-12ed-4e46-9807-d0185496c843")
+		)
 		(instances
 			(project "multiboard_controller"
 				(path "/0fe19ce7-810a-40c6-903d-4212edc122f9/67560f05-1fb1-4e04-8b13-d21aefa73d3e"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 191.77 45.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "bea69b51-6fe1-461d-bf7a-855c5fa12d70")
+		(property "Reference" "R10"
+			(at 190.5 48.006 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1K"
+			(at 194.818 48.006 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 192.024 44.704 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 191.77 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ba737feb-4177-453d-bc56-ff64a6204009")
+		)
+		(pin "1"
+			(uuid "e2765346-cb75-41ba-a39d-4c31782d0c06")
+		)
+		(instances
+			(project "multiboard_controller"
+				(path "/0fe19ce7-810a-40c6-903d-4212edc122f9/67560f05-1fb1-4e04-8b13-d21aefa73d3e"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -5341,7 +5784,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "bf46728e-31a4-4ff5-93b6-7413d3dc7b58")
 		(property "Reference" "#PWR023"
@@ -5407,7 +5850,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c1a66aa7-8b28-45a2-b1ae-73bb68611127")
 		(property "Reference" "#PWR012"
@@ -5468,15 +5911,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 191.77 45.72 90)
+		(at 130.81 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
-		(uuid "c7832fe2-d8cf-4848-9ab9-2e2c0132d3d1")
-		(property "Reference" "R10"
-			(at 190.5 48.006 90)
+		(dnp yes)
+		(uuid "c5742620-10fa-43c0-b2d4-460ff9c40d27")
+		(property "Reference" "R8"
+			(at 129.54 48.006 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5484,15 +5927,15 @@
 			)
 		)
 		(property "Value" "5.1K"
-			(at 194.818 48.006 90)
+			(at 133.858 48.006 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 192.024 44.704 90)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 131.064 44.704 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5501,7 +5944,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 191.77 45.72 0)
+			(at 130.81 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5510,7 +5953,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 191.77 45.72 0)
+			(at 130.81 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5519,82 +5962,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "bd1a2423-0b6e-4759-8cf6-44c8cd14f7ac")
+			(uuid "f3c3b6ca-3015-4364-88d1-d5fe80e6da45")
 		)
 		(pin "1"
-			(uuid "eade6fe7-546a-4f0f-a839-17fccf75a7e6")
+			(uuid "dd19c6d0-b5e7-4900-bc14-3ae664a8031b")
 		)
 		(instances
 			(project "multiboard_controller"
 				(path "/0fe19ce7-810a-40c6-903d-4212edc122f9/67560f05-1fb1-4e04-8b13-d21aefa73d3e"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 252.73 45.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cc7890a7-4323-43a3-8e8c-c6c7606caf88")
-		(property "Reference" "R12"
-			(at 251.46 48.006 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5.1K"
-			(at 255.778 48.006 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 252.984 44.704 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 252.73 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 252.73 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a449c216-a099-4172-b539-6082a8ba0d3d")
-		)
-		(pin "1"
-			(uuid "3ca788a7-131f-4025-ae57-d000c68815b1")
-		)
-		(instances
-			(project "multiboard_controller"
-				(path "/0fe19ce7-810a-40c6-903d-4212edc122f9/67560f05-1fb1-4e04-8b13-d21aefa73d3e"
-					(reference "R12")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -5607,7 +5983,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "df4f3c24-4a00-4df0-9866-616b291d638a")
 		(property "Reference" "J3"
 			(at 96.266 58.674 0)
@@ -5627,7 +6003,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4135-GF-A_6P_TopMnt_Horizontal"
 			(at 113.03 48.26 0)
 			(effects
 				(font
@@ -5705,6 +6081,30 @@
 		(pin "A8"
 			(uuid "70ccb74e-cced-4e44-beab-c4075f1004a4")
 		)
+		(pin "A10"
+			(uuid "3f21782c-fbe6-468c-b053-d00ef32680c0")
+		)
+		(pin "A2"
+			(uuid "e5aa30f2-9c5d-4de1-b951-819dffd1bac9")
+		)
+		(pin "B10"
+			(uuid "f4885d11-0d28-4595-a905-2ed816cd806b")
+		)
+		(pin "B3"
+			(uuid "5a7be763-858e-4530-b2c1-85e26bcd5dcf")
+		)
+		(pin "A3"
+			(uuid "a58c57dc-897a-482c-a959-4b11bc6b779e")
+		)
+		(pin "B11"
+			(uuid "5ed1ee22-790d-4936-87aa-19863646ff8f")
+		)
+		(pin "B2"
+			(uuid "805b0b79-8899-4e8a-88d0-2de0736ac400")
+		)
+		(pin "A11"
+			(uuid "37356abf-1f7d-4e32-a768-ea6b7c912f0f")
+		)
 		(instances
 			(project "multiboard_controller"
 				(path "/0fe19ce7-810a-40c6-903d-4212edc122f9/67560f05-1fb1-4e04-8b13-d21aefa73d3e"
@@ -5721,7 +6121,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e04a0bcf-741c-4af9-9ea1-baa9820f811b")
 		(property "Reference" "#PWR018"
@@ -5782,15 +6182,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 252.73 43.18 90)
+		(at 130.81 43.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
-		(uuid "e1dc5afb-29a7-4c2d-b00a-8abddcce1535")
-		(property "Reference" "R11"
-			(at 250.952 40.64 90)
+		(dnp yes)
+		(uuid "e2ba65c5-d427-470a-8517-58d627848d1b")
+		(property "Reference" "R7"
+			(at 129.032 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5798,15 +6198,15 @@
 			)
 		)
 		(property "Value" "5.1K"
-			(at 255.27 40.64 90)
+			(at 133.35 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 252.984 42.164 90)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 131.064 42.164 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5815,7 +6215,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 252.73 43.18 0)
+			(at 130.81 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5824,7 +6224,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 252.73 43.18 0)
+			(at 130.81 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5833,15 +6233,82 @@
 			)
 		)
 		(pin "2"
-			(uuid "728f36db-dcd3-435e-b71e-95fcef3615d5")
+			(uuid "baaa90aa-b24f-41ab-b7f7-5932a7955c4f")
 		)
 		(pin "1"
-			(uuid "28460f85-4cfb-49b8-aadd-618a90444020")
+			(uuid "1bc2e03a-1eac-48b9-af7d-4522e3f0a73e")
 		)
 		(instances
 			(project "multiboard_controller"
 				(path "/0fe19ce7-810a-40c6-903d-4212edc122f9/67560f05-1fb1-4e04-8b13-d21aefa73d3e"
-					(reference "R11")
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 130.81 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "e536ff64-faf4-442e-a99d-b06af49150ce")
+		(property "Reference" "R15"
+			(at 129.032 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1K"
+			(at 133.35 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 131.064 113.284 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 130.81 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8cbcbed4-aba9-4af7-a0a4-f6ecb2a397d5")
+		)
+		(pin "1"
+			(uuid "89f4a084-1473-4562-9348-ef7898f83039")
+		)
+		(instances
+			(project "multiboard_controller"
+				(path "/0fe19ce7-810a-40c6-903d-4212edc122f9/67560f05-1fb1-4e04-8b13-d21aefa73d3e"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -5920,7 +6387,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ea708635-dd86-4e88-8494-c3c9651a48ba")
 		(property "Reference" "#PWR010"
@@ -5986,7 +6453,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f16b30f4-72d0-4091-a09c-80e7100e8089")
 		(property "Reference" "J7"
 			(at 157.226 129.794 0)
@@ -6006,7 +6473,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4135-GF-A_6P_TopMnt_Horizontal"
 			(at 173.99 119.38 0)
 			(effects
 				(font
@@ -6084,77 +6551,34 @@
 		(pin "A8"
 			(uuid "e433d3b4-a200-4cb4-8f39-36068d95b8ac")
 		)
+		(pin "B11"
+			(uuid "841827e6-c8f1-4c5f-83c0-5881d138022b")
+		)
+		(pin "B10"
+			(uuid "3ec75413-c3ca-4887-a862-ee3f1cbd2460")
+		)
+		(pin "A10"
+			(uuid "477f2457-0d47-4e05-b588-b6eed373d695")
+		)
+		(pin "A2"
+			(uuid "9dbb5737-d977-41ae-9e36-ed72c74b869f")
+		)
+		(pin "A11"
+			(uuid "3e41406d-5fee-4b58-804a-895eeddfa9b9")
+		)
+		(pin "B3"
+			(uuid "c36f3bc6-36e8-4125-b8c8-ff5a8c65c8e0")
+		)
+		(pin "A3"
+			(uuid "8454b5eb-e089-4d3f-baab-fcd92a413c70")
+		)
+		(pin "B2"
+			(uuid "eb964a9e-e3f3-405b-b36d-d72a7052dfae")
+		)
 		(instances
 			(project "multiboard_controller"
 				(path "/0fe19ce7-810a-40c6-903d-4212edc122f9/67560f05-1fb1-4e04-8b13-d21aefa73d3e"
 					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 191.77 116.84 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fa5f9c8f-ba18-484c-85f5-88cf5907d452")
-		(property "Reference" "R16"
-			(at 190.5 119.126 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5.1K"
-			(at 194.818 119.126 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 192.024 115.824 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 191.77 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 191.77 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7853b33c-ae8f-4452-b57c-ffca23cb8e87")
-		)
-		(pin "1"
-			(uuid "3f44ceec-f0db-4200-a94e-4c39a5d28e2b")
-		)
-		(instances
-			(project "multiboard_controller"
-				(path "/0fe19ce7-810a-40c6-903d-4212edc122f9/67560f05-1fb1-4e04-8b13-d21aefa73d3e"
-					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -6167,7 +6591,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "febb6f72-c5c2-449c-ad94-6ca5b13ac628")
 		(property "Reference" "#PWR015"

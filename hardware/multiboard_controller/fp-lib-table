@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "all-footprints")(type "KiCad")(uri "C:/Users/eridg/Downloads/kicad-component-models/all-footprints")(options "")(descr ""))
+)

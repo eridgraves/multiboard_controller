@@ -4,4 +4,6 @@
   (lib (name "MAX")(type "KiCad")(uri "C:/Users/eridg/Downloads/ul_max4999etj-/KiCADv6/2025-02-09_23-57-31.kicad_sym")(options "")(descr "")(disabled))
   (lib (name "2025-02-09_23-57-31")(type "KiCad")(uri "C:/Users/eridg/Downloads/ul_max4999etj-/KiCADv6/2025-02-09_23-57-31.kicad_sym")(options "")(descr ""))
   (lib (name "2025-02-09_21-04-15")(type "KiCad")(uri "C:/Users/eridg/Downloads/TUSB3410RHBR/KiCADv6/2025-02-09_21-04-15.kicad_sym")(options "")(descr ""))
+  (lib (name "A-DS_09_A_KG-T2S")(type "KiCad")(uri "C:/Users/eridg/Downloads/kicad-component-models/A_DS_09_A_KG_T2S/A-DS_09_A_KG-T2S.kicad_sym")(options "")(descr ""))
+  (lib (name "2025-02-13_02-16-07")(type "KiCad")(uri "C:/Users/eridg/Downloads/kicad-component-models/OS102011MS2QN1/KiCADv6/2025-02-13_02-16-07.kicad_sym")(options "")(descr ""))
 )
