@@ -1,4 +1,4 @@
-# multiboard_controller
+# multiboard-controller
 A board to connect a single host to multiple dev/eval boards, each with:
 - Power over USB
 - USB (shared with above?) for Fastboot communication 
